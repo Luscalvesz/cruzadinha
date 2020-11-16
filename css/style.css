@@ -15,7 +15,6 @@
     text-align: center;
     text-transform: uppercase;
     color: white;
-    /* letter-spacing: 3px; */
     margin: 3px 0;
 }
 
@@ -36,7 +35,7 @@
 .divrom{
     position: absolute;
     top: 27px;
-    right: 92px;
+    right: 232px;
 }
 .divula{
     position: absolute;
@@ -44,9 +43,9 @@
     left: -58px;
 }
 .divregist{
-    position: absolute;
-    top: 55px;
-    right: -82px;
+    position: relative;
+    bottom: 421px;
+    left: -58px;
 }
 .divdma{
     position: absolute;
@@ -61,17 +60,17 @@
 .divadress{
     position: absolute;
     top: -29px;
-    right: -24px;
+    right: 116px;
 }
 .diveprom{
     position: absolute;
     top: 419px;
-    right: -111px;
+    right: 29px;
 }
 .divflash{
     position: absolute;
     top: 251px;
-    right: -53px;
+    right: 87px;
 }
 .divi5{
     position: absolute;
@@ -91,7 +90,7 @@
 .divdual{
     position: absolute;
     top: 167px;
-    right: 5px;
+    right: 145px;;
 }
 .divquad{
     position: absolute;
