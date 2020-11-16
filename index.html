@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Palavra Cruzada</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/slick.css" />
+</head>
+
+<body class="body">
+    <section class="board">
+        <h1 class="title">palavras cruzadas</h1>
+        <div class="divmemoria">
+            <b class="square ex">1</b>
+            <b class="square memo">m</b>
+            <b class="square memo">e</b>
+            <b class="square memo">m</b>
+            <b class="square memo">o</b>
+            <b class="square memo">r</b>
+            <b class="square memo">i</b>
+            <b class="square memo">a</b>
+            <b class="square memo">-</b>
+            <b class="square memo">d</b>
+            <b class="square memo">e</b>
+            <b class="square memo">-</b>
+            <b class="square memo">m</b>
+            <b class="square memo">a</b>
+            <b class="square memo">s</b>
+            <b class="square memo">s</b>
+            <b class="square memo">a</b>
+            <div class="divcpu">
+                <b class="square ex">2</b>
+                <b class="square cpu">c</b>
+                <b class="square cpu">p</b>
+                <b class="square cpu">u</b>
+            </div>
+            <div class="divula">
+                <b class="square ex">3</b>
+                <b class="square ula">u</b>
+                <b class="square ula">l</b>
+                <b class="square ula">a</b>
+            </div>
+            <div class="divregist flex">
+                <b class="square ex">4</b>
+                <b class="square regist">r</b>
+                <b class="square regist transp">e</b>
+                <b class="square regist">g</b>
+                <b class="square regist">i</b>
+                <b class="square regist">s</b>
+                <b class="square regist">t</b>
+                <b class="square regist">r</b>
+                <b class="square regist">a</b>
+                <b class="square regist">d</b>
+                <b class="square regist">o</b>
+                <b class="square regist">r</b>
+                <b class="square regist">e</b>
+                <b class="square regist">s</b>
+            </div>
+            <div class="divram flex">
+                <b class="square ex">5</b>
+                <b class="square ram">r</b>
+                <b class="square ram">a</b>
+                <b class="square ram transp">m</b>
+            </div>
+            <div class="divrom">
+                <b class="square ex">6</b>
+                <b class="square rom transp">r</b>
+                <b class="square rom">o</b>
+                <b class="square rom">m</b>
+            </div>
+            <div class="diveprom flex">
+                <b class="square ex">7</b>
+                <b class="square eprom ">e</b>
+                <b class="square eprom transp">p</b>
+                <b class="square eprom">r</b>
+                <b class="square eprom">o</b>
+                <b class="square eprom">m</b>
+            </div>
+            <div class="divflash flex">
+                <b class="square ex">8</b>
+                <b class="square flash">f</b>
+                <b class="square flash">l</b>
+                <b class="square flash">a</b>
+                <b class="square flash">s</b>
+                <b class="square flash">h</b>
+            </div>
+            <div class="divdma">
+                <b class="square ex">9</b>
+                <b class="square dma">d</b>
+                <b class="square dma">m</b>
+                <b class="square dma">a</b>
+            </div>
+            <div class="divcs">
+                <b class="square ex">10</b>
+                <b class="square cs">c</b>
+                <b class="square cs">s</b>
+            </div>
+            <div class="divadress">
+                <b class="square ex">11</b>
+                <b class="square adress">a</b>
+                <b class="square adress">d</b>
+                <b class="square adress transp">r</b>
+                <b class="square adress">e</b>
+                <b class="square adress">s</b>
+                <b class="square adress">s</b>
+                <b class="square adress">-</b>
+                <b class="square adress">b</b>
+                <b class="square adress">u</b>
+                <b class="square adress transp">s</b>
+            </div>
+            <div class="divdata flex">
+                <b class="square ex">12</b>
+                <b class="square data transp">d</b>
+                <b class="square data transp">a</b>
+                <b class="square data">t</b>
+                <b class="square data transp">a</b>
+                <b class="square data">-</b>
+                <b class="square data">b</b>
+                <b class="square data">u</b>
+                <b class="square data transp">s</b>
+            </div>
+            <div class="divi5 flex">
+                <b class="square ex">13</b>
+                <b class="square i5 transp">i</b>
+                <b class="square i5">5</b>
+            </div>
+            <div class="divi7">
+                <b class="square ex">14</b>
+                <b class="square i7 transp">i</b>
+                <b class="square i7">7</b>
+            </div>
+            <div class="divdual">
+                <b class="square ex">15</b>
+                <b class="square dual">d</b>
+                <b class="square dual">u</b>
+                <b class="square dual transp">a</b>
+                <b class="square dual">l</b>
+                <b class="square dual">-</b>
+                <b class="square dual">c</b>
+                <b class="square dual">o</b>
+                <b class="square dual">r</b>
+                <b class="square dual transp">e</b>
+            </div>
+            <div class="divquad flex">
+                <b class="square ex">16</b>
+                <b class="square quad">q</b>
+                <b class="square quad">u</b>
+                <b class="square quad transp">a</b>
+                <b class="square quad">d</b>
+                <b class="square quad">-</b>
+                <b class="square quad">c</b>
+                <b class="square quad">o</b>
+                <b class="square quad">r</b>
+                <b class="square quad">e</b>
+            </div>
+        </div>
+    </section>
+    <!-- respostas -->
+    <section id="carrossel">
+        <div class="resp resp-memoria">
+            <h2 class="title">questão 01</h2>
+            <p class="quest">Tem como função armazenar grandes quantidades de informações</p>
+            <input class="input" type="text" id="in_memoria" placeholder="responda aqui">
+            <button class="respButton" onclick="memoria()">Responder</button>
+        </div>
+        <div class="resp resp-cpu">
+            <h2 class="title">questão 02</h2>
+            <p class="quest">Unidade central de processamento</p>
+            <input class="input" type="text" id="in_cpu"  placeholder="responda aqui">
+            <button class="respButton" onclick="cpu()">Responder</button>
+        </div>
+        <div class="resp resp-ula">
+            <h2 class="title">questão 03</h2>
+            <p class="quest">Unidade Lógica e Aritmética</p>
+            <input class="input" type="text" id="in_ula" placeholder="responda aqui">
+            <button class="respButton" onclick="ula()">Responder</button>
+        </div>
+        <div class="resp resp-regist">
+            <h2 class="title">questão 04</h2>
+            <p class="quest">Memória local rápida do microprocessador</p>
+            <input class="input" type="text" id="in_regist" placeholder="responda aqui">
+            <button class="respButton" onclick="regist()">Responder</button>
+        </div>
+        <div class="resp resp-ram">
+            <h2 class="title">questão 05</h2>
+            <p class="quest">Memória de armazenamento randômico</p>
+            <input class="input" type="text" id="in_ram" placeholder="responda aqui">
+            <button class="respButton" onclick="ram()">Responder</button>
+        </div>
+        <div class="resp resp-rom">
+            <h2 class="title">questão 06</h2>
+            <p class="quest">Memória somente de leitura</p>
+            <input class="input" type="text" id="in_rom" placeholder="responda aqui">
+            <button class="respButton" onclick="rom()">Responder</button>
+        </div>
+        <div class="resp resp-eprom">
+            <h2 class="title">questão 07</h2>
+            <p class="quest">Memória de leitura programável apagáve</p>
+            <input class="input" type="text" id="in_eprom" placeholder="responda aqui">
+            <button class="respButton" onclick="eprom()">Responder</button>
+        </div>
+        <div class="resp resp-flash">
+            <h2 class="title">questão 08</h2>
+            <p class="quest">Memória não volátil que pode ser atualizada</p>
+            <input class="input" type="text" id="in_flash" placeholder="responda aqui">
+            <button class="respButton" onclick="flash()">Responder</button>
+        </div>
+        <div class="resp resp-dma">
+            <h2 class="title">questão 09</h2>
+            <p class="quest">Permite que os periféricos acessem diretamente a memória</p>
+            <input class="input" type="text" id="in_dma" placeholder="responda aqui">
+            <button class="respButton" onclick="dma()">Responder</button>
+        </div>
+        <div class="resp resp-cs">
+            <h2 class="title">questão 10</h2>
+            <p class="quest">Linha de controle usada para selecionar um dos circuitos integrados</p>
+            <input class="input" type="text" id="in_cs" placeholder="responda aqui">
+            <button class="respButton" onclick="cs()">Responder</button>
+        </div>
+        <div class="resp resp-adress">
+            <h2 class="title">questão 11</h2>
+            <p class="quest">Barramento usado para especificar um endereço fisíco</p>
+            <input class="input" type="text" id="in_adress" placeholder="responda aqui">
+            <button class="respButton" onclick="adress()">Responder</button>
+        </div>
+        <div class="resp resp-data">
+            <h2 class="title">questão 12</h2>
+            <p class="quest">Caminho interno através do qual os dados são tranferidos</p>
+            <input class="input" type="text" id="in_data" placeholder="responda aqui">
+            <button class="respButton" onclick="data()">Responder</button>
+        </div>
+        <div class="resp resp-i5">
+            <h2 class="title">questão 13</h2>
+            <p class="quest">Processador intel com 8 threads e 4 núcleos</p>
+            <input class="input" type="text" id="in_i5" placeholder="responda aqui">
+            <button class="respButton" onclick="i5()">Responder</button>
+        </div>
+        <div class="resp resp-i7">
+            <h2 class="title">questão 14</h2>
+            <p class="quest">Processador intel com 16 threads e 8 núcleos</p>
+            <input class="input" type="text" id="in_i7" placeholder="responda aqui">
+            <button class="respButton" onclick="i7()">Responder</button>
+        </div>
+        <div class="resp resp-dual">
+            <h2 class="title">questão 15</h2>
+            <p class="quest">Processador com dois núcleos</p>
+            <input class="input" type="text" id="in_dual" placeholder="responda aqui">
+            <button class="respButton" onclick="dual()">Responder</button>
+        </div>
+        <div class="resp resp-quad">
+            <h2 class="title">questão 16</h2>
+            <p class="quest">Processador com quatro núcleos</p>
+            <input class="input" type="text" id="in_quad" placeholder="responda aqui">
+            <button class="respButton" onclick="quad()">Responder</button>
+        </div>
+    </section>
+</body>
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/slick.min.js"></script>
+<script src="js/carrossel.js"></script>
+<script src="js/script.js"></script>
+
+</html>

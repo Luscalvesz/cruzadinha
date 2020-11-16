@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    font-family: sans-serif;
+}
+.body{
+    height: 100vh;
+    background: #0f30a8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.title{
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 3px;
+    margin: 3px 0;
+}
+
+.divmemoria{
+    position: relative;
+    left: 30%;
+}
+.divcpu{
+    position: absolute;
+    top: 363px;
+    right: 27px;
+}
+.divram{
+    position: absolute;
+    top: 335px;
+    left: -87px;  
+}
+.divrom{
+    position: absolute;
+    top: 27px;
+    right: 143px;  
+}
+.divula{
+    position: absolute;
+    top: 111px;
+    left: -58px;
+}
+.divregist{
+    position: absolute;
+    top: 55px;
+    right: -31px;
+}
+.divdma{
+    position: absolute;
+    top: 167px;
+    left: -87px;
+}
+.divcs{
+    position: absolute;
+    top: 139px;
+    left: 116px;
+}
+.divadress{
+    position: absolute;
+    top: -29px;
+    right: 27px;
+}
+.diveprom{
+    position: absolute;
+    top: 419px;
+    right: -60px;
+}
+.divflash{
+    position: absolute;
+    top: 251px;
+    right: -2px;
+}
+.divi5{
+    position: absolute;
+    top: 167px;
+    left: -29px;
+}
+.divi7{
+    position: absolute;
+    top: 27px;
+    left: 58px;
+}
+.divdata{
+    position: absolute;
+    top: 195px;
+    left: -116px;
+}
+.divdual{
+    position: absolute;
+    top: 167px;
+    right: 56px;
+}
+.divquad{
+    position: absolute;
+    top: 447px;
+    left: -87px;
+}
+.quest{
+    color: white;
+    font-size: 18px;
+}
+.input{
+    margin: 5px 0;
+    border-radius: 25px;
+    border: none;
+    padding: 5px;
+}
+.respButton{
+    border-radius: 25px;
+    border: 2px solid black;
+    background: #00005f;
+    padding: 5px 20px;
+    color: white;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.transp{
+    opacity: 0;
+}
+.flex{
+    display: flex;
+}
+.square{
+    height: 25px;
+    width: 25px;
+    background: white;
+    border: 1px solid black;
+    font-size: 0;
+    margin: 1px;
+    font-weight: 100;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+}
+.ex{
+    background: black;
+    font-size: 20px;
+    color: white;
+}
+.ativo{
+    font-size: 20px;
+}
+.opacityOn{
+    opacity: 1;
+}
+.resp{
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+/* carrossel */
+#carrossel {
+    text-align: center;
+    margin: 3px 0;
+    position: fixed;
+    bottom: 0;
+}
+.slick-next {
+    font-size: 0;
+    background: url(../img/arrow.svg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 35px;
+    width: 35px;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+    bottom: 50%;
+    outline: none;
+    z-index: 1;
+}
+.slick-prev {
+    font-size: 0;
+    background: url(../img/arrow.svg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 35px;
+    width: 35px;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    left: 0;
+    bottom: 50%;
+    outline: none;
+    z-index: 1;
+    transform: rotate(180deg);
+}
